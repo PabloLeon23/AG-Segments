@@ -37,4 +37,13 @@ Example of use of Nearest Centroid algorithm with GA-Segments:
 Installation
 ------------
 
-At the moment don't exist pip installation. You can clone the respository and use one of the notebooks.
+At the moment don't exist pip installation. You can clone the respository and use one of the notebooks. The package has only been tested in the 64-bit Ubuntu operating system.
+
+You have to install the following packages wiht pip:
+
+* numpy
+* pandas
+* deap
+* scikit-learn
+* matplotlib
+
