@@ -3,21 +3,17 @@ AG-Segments
 
 AG-Segments is the package  for efficient prototyping of large time series datasets using DTW distance. 
 
-Example of use:
+Example of use of AG-Segments:
 
 .. code-block:: python
 
-    >>> from ga_segments.ga import GA_segments
-	
+	>>> from ga_segments.ga import GA_segments
 	>>> import pandas as pd
-
-    >>> series = pd.read_csv('./data/50words_TRAIN', header=None).values[:, 1:]
-
-    >>> ga = GA_segments()
-
-    >>> centroid, best_fitness, log = ga.calculate_centroids(series)
 	
-	>>> print(centroid)
+	>>> series = pd.read_csv('./data/50words_TRAIN', header=None).values[:, 1:]
+	
+	>>> ga = GA_segments()
+	>>> centroid, best_fitness, log = ga.calculate_centroids(series)
 	
 	
 Example of use of Nearest Centroid algorithm with AG-Segments:
@@ -35,10 +31,10 @@ Example of use of Nearest Centroid algorithm with AG-Segments:
 	>>> nc = NC()
 	>>> nc.fit(x_train, y_train)
 	>>> nc.predict(x_val)
-	>>> print(nc.labels)
+	>>> nc.labels
 	
 
-	
+	d
 Installation
 ------------
 
