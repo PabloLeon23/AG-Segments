@@ -1,9 +1,9 @@
-AG-Segments
+GA-Segments
 ============
 
-AG-Segments is the package  for efficient prototyping of large time series datasets using DTW distance. 
+GA-Segments is the package  for efficient prototyping of large time series datasets using DTW distance. 
 
-Example of use of AG-Segments:
+Example of use of GA-Segments:
 
 .. code-block:: python
 
@@ -16,7 +16,7 @@ Example of use of AG-Segments:
 	>>> centroid, best_fitness, log = ga.calculate_centroids(series)
 	
 	
-Example of use of Nearest Centroid algorithm with AG-Segments:
+Example of use of Nearest Centroid algorithm with GA-Segments:
 
 .. code-block:: python
 
@@ -34,7 +34,6 @@ Example of use of Nearest Centroid algorithm with AG-Segments:
 	>>> nc.labels
 	
 
-	d
 Installation
 ------------
 
